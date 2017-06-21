@@ -1,0 +1,32 @@
+@import '_variables.scss';
+@import '_bootstrap.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700');
+
+body {
+  background-color: $white;
+  font-family: 'Work Sans';
+  color: $black;
+}
+
+a {
+  color: $orange;
+
+  &:hover {
+    color: $dark-orange;
+    text-decoration: none;
+  }
+}
+
+.btn-js {
+  background-color: $dark-orange;
+  border-color: $dark-orange;
+  color: $white;
+  border: none;
+  outline: none;
+
+  &:hover {
+    background-color: $orange;
+    color: $white;
+  }
+}

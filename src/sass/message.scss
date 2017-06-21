@@ -1,0 +1,16 @@
+.message-enter {
+  transition: all 0.5s;
+  opacity: 0;
+
+  &.message-enter-active {
+    opacity: 1;
+  }
+}
+
+.message-leave {
+  transition: all 0.5s;
+  opacity: 1;
+  &.message-leave-active {
+    opacity: 0;
+  }
+}

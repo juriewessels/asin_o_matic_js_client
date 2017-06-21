@@ -1,0 +1,23 @@
+@import './_variables';
+
+.product-data {
+  td {
+    padding: 10px !important;
+  }
+}
+
+.product-actions {
+  margin-bottom: 0;
+
+  button,
+  button:focus,
+  button:active {
+    color: $dark-orange;
+    border: none;
+    background: none;
+    outline: none;
+  }
+  button:hover {
+    color: $orange;
+  }
+}

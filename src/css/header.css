@@ -1,0 +1,18 @@
+.brand {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  font-style: italic; }
+  @media (max-width: 767px) {
+    .brand {
+      text-align: center;
+      padding-bottom: 0; } }
+
+.header-wrapper {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #7e8ba0;
+  margin-bottom: 40px; }
+
+.brand-o {
+  color: #ed8c00; }

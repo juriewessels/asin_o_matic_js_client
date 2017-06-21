@@ -1,0 +1,39 @@
+@import './_variables';
+
+.form-wrapper {
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+.asin-form {
+  padding-top: 20px;
+  float: right;
+
+  @media (max-width: 767px) {
+    float: none;
+    padding: 10px 0;
+  }
+
+  .asin-form-input {
+    width: 350px;
+    display: inline;
+    height: 30px;
+    padding-left: 5px;
+  }
+
+  button,
+  button:focus,
+  button:active {
+    color: $white !important;
+    height: 29px;
+    position: relative;
+    top: -1px;
+    border: none;
+    outline: none;
+
+    @media (max-width: 540px) {
+      width: 350px;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.product-data td {
+  padding: 10px !important; }
+
+.product-actions {
+  margin-bottom: 0; }
+  .product-actions button,
+  .product-actions button:focus,
+  .product-actions button:active {
+    color: #ed8c00;
+    border: none;
+    background: none;
+    outline: none; }
+  .product-actions button:hover {
+    color: #ffbe61; }
