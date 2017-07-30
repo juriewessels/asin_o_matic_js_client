@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import "../css/loading.css";
+import '../css/loading.css';
 
 const Loading = () => {
   return (

@@ -3,7 +3,7 @@ import {
   DISPLAY_MESSAGE,
   PROCESSING_REQUEST,
   REQUEST_PROCESSED
-} from "../actions";
+} from '../actions';
 
 const appDefaultState = {
   isLoading: false,

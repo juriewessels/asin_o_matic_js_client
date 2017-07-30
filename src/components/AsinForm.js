@@ -1,10 +1,10 @@
-import React from "react";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
+import React from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
-import { createProduct } from "../actions";
+import { createProduct } from '../actions';
 
-import "../css/form.css";
+import '../css/form.css';
 
 class AsinForm extends React.Component {
   constructor() {

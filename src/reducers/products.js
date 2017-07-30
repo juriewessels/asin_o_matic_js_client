@@ -3,7 +3,7 @@ import {
   ADD_PRODUCT,
   REMOVE_PRODUCT,
   REFRESH_PRODUCT
-} from "../actions";
+} from '../actions';
 
 function products(state = [], action) {
   const product = action.product;

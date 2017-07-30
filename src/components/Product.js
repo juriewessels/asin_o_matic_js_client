@@ -1,12 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import ActionButtons from "./ActionButtons";
+import ActionButtons from './ActionButtons';
 
-import "../css/product.css";
+import '../css/product.css';
 
 const truncateString = (string, length) => {
-  return string.length > length ? string.substr(0, length - 1) + "..." : string;
+  return string.length > length ? string.substr(0, length - 1) + '...' : string;
 };
 
 const Product = props => {

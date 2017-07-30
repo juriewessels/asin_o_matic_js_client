@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import AsinForm from "../components/AsinForm";
+import AsinForm from '../components/AsinForm';
 
-import "../css/header.css";
+import '../css/header.css';
 
 const Header = () => {
   return (

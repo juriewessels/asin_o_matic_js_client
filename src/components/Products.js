@@ -1,8 +1,8 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import ProductsHeader from "./ProductsHeader";
-import Product from "./Product";
+import ProductsHeader from './ProductsHeader';
+import Product from './Product';
 
 const renderProducts = products => {
   return (

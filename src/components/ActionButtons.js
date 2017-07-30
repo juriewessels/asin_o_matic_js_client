@@ -1,8 +1,8 @@
-import React from "react";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
+import React from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
-import { deleteProduct, updateProduct } from "../actions";
+import { deleteProduct, updateProduct } from '../actions';
 
 class ActionButtons extends React.Component {
   constructor() {

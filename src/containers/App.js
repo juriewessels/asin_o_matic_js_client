@@ -1,17 +1,17 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { connect } from "react-redux";
-import { CSSTransitionGroup } from "react-transition-group";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { CSSTransitionGroup } from 'react-transition-group';
 
-import Header from "../components/Header";
-import Products from "../components/Products";
-import NoProducts from "../components/NoProducts";
-import Message from "../components/Message";
-import Loading from "../components/Loading";
+import Header from '../components/Header';
+import Products from '../components/Products';
+import NoProducts from '../components/NoProducts';
+import Message from '../components/Message';
+import Loading from '../components/Loading';
 
-import { getProducts } from "../actions";
+import { getProducts } from '../actions';
 
-import "../css/application.css";
+import '../css/application.css';
 
 class App extends React.Component {
   constructor() {

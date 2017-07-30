@@ -1,10 +1,10 @@
-import React from "react";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
+import React from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
-import { closeMessage } from "../actions";
+import { closeMessage } from '../actions';
 
-import "../css/message.css";
+import '../css/message.css';
 
 class Message extends React.Component {
   componentDidMount() {
